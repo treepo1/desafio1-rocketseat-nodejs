@@ -2,8 +2,11 @@ const errors = {
   user: {
     NOTFOUND: "User was not found!",
     ALREADYEXISTENT: "User already exists!"
+  },
+  todos: {
+    NOTFOUND: "Todo was not found!"
   }
 }
 
 
-export default errors
+module.exports = errors
